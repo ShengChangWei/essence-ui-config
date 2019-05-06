@@ -1,0 +1,45 @@
+{
+  "name": "essence-ui-config",
+  "version": "3.0.6",
+  "description": "未做通用性处理，仅限公司内部使用的组件",
+  "author": {
+    "name": "esssence"
+  },
+  "scripts": {
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint --fix",
+    "lib": "vue-cli-service build --target lib --name essence-ui-config --dest lib packages/index.js",
+    "start": "vue-cli-service serve --open"
+  },
+  "dependencies": {
+    "color": "^3.1.1",
+    "core-js": "^2.6.5",
+    "e-vue-echartsjs": "^0.1.2",
+    "e-vue-esrimapjs": "^0.1.6",
+    "element-ui": "^2.4.5",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.1.0",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "keywords": [
+    "vue",
+    "essence-ui-config",
+    "essence"
+  ],
+  "license": "MIT",
+  "main": "lib/essence-ui-config.common.js"
+}
